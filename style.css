@@ -1,0 +1,103 @@
+		.one {
+			width: 50%;
+		}
+		.two {
+			width: 400px;
+			height: 150px;
+		}
+		.green{
+			background-color:#4caf50;
+			color: black;
+		}
+		.red {
+			background-color:red;
+			color: white; 
+		}
+
+		.nov {
+			display: grid;
+			grid-template-columns: 20% 30% auto;
+			justify-content: space-between;
+
+		}
+
+		.borderimg{
+		border: 1px solid black;	
+		}
+		.color, li {
+			color: yellow;
+		}
+	img.one{
+		width: 600px;
+		justify-self: start;
+		}
+
+	input[type="text"] {
+		color: blueviolet;
+	}
+	input[type="password"] {
+		color: rgb(43, 226, 134);
+	}
+	li a:hover{
+		color: brown;
+	}
+	li a:active{
+		color: darkblue;
+	}
+	input:focus{
+		background-color: goldenrod; 
+	}
+	ul li:first-of-type{
+		color: black;
+	}
+
+	 ul li:nth-child(even) { /*нечетные элементы*/	
+		color: rgb(226, 43, 43);
+	}
+	i:only-child{
+		color: crimson;
+	}
+	.money::before{
+		content: '$';
+		background-color: greenyellow;
+	}
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	h1, h2, h3{  /*отступ заголовка*/
+	margin: 10px;
+	}
+p{
+	margin-left: 20px;
+}
+li{
+	margin-left: 40px;
+}
+i{
+	display:inline-block;
+	width: 700px;
+}
+
+.Авторизация {
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+
+.header {
+	position: sticky;
+	top: 0;
+}
+
+.block_2{
+	display: flex;
+}
+
+.block_3{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: 200px;
+	justify-content: space-between;
+}
